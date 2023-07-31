@@ -21,7 +21,30 @@ Può essere fatto implementando un menu interattivo, usando lo Scanner, oppure i
  */
 
     //attributi
-    private String licensePlate;
-    private LocalDate yearOfEnrollment;
+    protected String licensePlate;
+    protected int yearOfEnrollment;
 
+    //costruttore
+
+    public Vehicle (String licensePlate, int yearOfEnrollment){
+        this.licensePlate = licensePlate;
+        this.yearOfEnrollment = yearOfEnrollment;
+    }
+
+    //getter e setter
+    public String getLicensePlate() {
+        return licensePlate;
+    }
+
+    public void setLicensePlate(String licensePlate) {
+        this.licensePlate = licensePlate;
+    }
+
+    public int getYearOfEnrollment() {
+        return yearOfEnrollment;
+    }
+
+    public void setYearOfEnrollment(int yearOfEnrollment) {
+        this.yearOfEnrollment = yearOfEnrollment;
+    }
 }

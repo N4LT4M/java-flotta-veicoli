@@ -22,4 +22,27 @@ Può essere fatto implementando un menu interattivo, usando lo Scanner, oppure i
 
     private int numberOfDoors;
 
+    //costruttore
+
+
+    public Car(String licensePlate, int yearOfEnrollment, int numberOfDoors) {
+        super(licensePlate, yearOfEnrollment);
+        this.numberOfDoors = numberOfDoors;
+    }
+
+    //getter e setter
+    public int getNumberOfDoors () {
+        return numberOfDoors;
+    }
+
+    public void setNumberOfDoors(int numberOfDoors) {
+        this.numberOfDoors = numberOfDoors;
+    }
+
+    //metodo per stampare informazioni sull'oggetto
+    public void printCarInformation (){
+        System.out.println("this car's license plate is: " + licensePlate);
+        System.out.println("this car's year of enrollment is: " + yearOfEnrollment);
+        System.out.println("this car have " + numberOfDoors + " doors");
+    }
 }

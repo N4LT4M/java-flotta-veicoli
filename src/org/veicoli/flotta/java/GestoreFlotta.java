@@ -5,10 +5,10 @@ public class GestoreFlotta {
 Si vuole progettare un’applicazione in grado di gestire una flotta di veicoli.
 Descrizione:
 Hai ricevuto l’incarico di sviluppare un’applicazione Java per la gestione di una flotta di veicoli.
-Ogni veicolo nella flotta può essere di due tipi: automobile o motocicletta.
-Ogni veicolo ha un numero di targa univoco e un anno di immatricolazione.
-Le automobili hanno un campo per indicare il numero di porte, mentre le motociclette hanno un campo per indicare se sono dotate di cavalletto o meno.
-Deve essere possibile visualizzare tutte le informazioni di ciascun tipo di veicolo.
+Ogni veicolo nella flotta può essere di due tipi: automobile o motocicletta. - fatto
+Ogni veicolo ha un numero di targa univoco e un anno di immatricolazione. - fatto
+Le automobili hanno un campo per indicare il numero di porte, mentre le motociclette hanno un campo per indicare se sono dotate di cavalletto o meno. - fatto
+Deve essere possibile visualizzare tutte le informazioni di ciascun tipo di veicolo. - fatto
 Creare la gerarchia di classi necessarie e una classe GestoreFlotta che conterrà una lista di veicoli.
 La classe GestoreFlotta deve permettere di:
 aggiungere nuovi veicoli alla flotta

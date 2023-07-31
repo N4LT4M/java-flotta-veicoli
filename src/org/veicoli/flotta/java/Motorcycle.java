@@ -18,5 +18,26 @@ Aggiungere un’altra classe Main, con il metodo main nel quale viene creata un�
 Può essere fatto implementando un menu interattivo, usando lo Scanner, oppure impostando direttamente nel codice i dati con cui costruire i vari oggetti.
  */
 
-    private boolean easel;
+    private boolean kickstand;
+
+    public Motorcycle (String licensePlate, int yearOfEnrollment, boolean kickstand){
+        super(licensePlate, yearOfEnrollment);
+        this.kickstand = kickstand;
+    }
+    //getter
+    public boolean isEasel(boolean kickstand){
+        return kickstand;
+    }
+
+    //metodo per stampare informazioni motocicletta
+    public void printCarInformation (){
+        System.out.println("this motorcycle's license plate is: " + licensePlate);
+        System.out.println("this motorcycle's year of enrollment is: " + yearOfEnrollment);
+        if (kickstand) {
+            System.out.println("this motorcycle has a kickstand");
+        } else {
+            System.out.println("this motorcycle hasn't a kickstand");
+        }
+
+        }
 }
